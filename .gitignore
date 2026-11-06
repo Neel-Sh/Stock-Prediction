@@ -73,4 +73,22 @@ Thumbs.db
 # Temporary files
 tmp/
 temp/
-*.tmp 
+*.tmp
+
+# Local machine files and credentials
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+# Python environments and caches
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.h5
+*.keras
+*_prediction.png
